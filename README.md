@@ -4,6 +4,8 @@ Install and run [OpenCode](https://github.com/anomalyco/opencode), the open-sour
 
 > **Unofficial community build.** This is not an official OpenCode or Termux distribution. Review the installer and project before running it. The command below downloads and executes a script from the internet.
 
+> **Tested:** The repository owner has confirmed that the installation command works on a real Android device with Termux. Device-specific results may vary; please report your Android version, device model, and Termux details when filing an issue.
+
 ## Requirements
 
 - Android device running a supported version of Android.
@@ -67,6 +69,8 @@ opencode
 ```
 
 Replace `~/my-project` with the actual directory you want to work in. If you want to work with shared Android storage, first configure Termux storage access with `termux-setup-storage` and follow Android's permission prompts.
+
+The installer also supports selecting a build. These are optional; use them only if you need a prerelease or a pinned version. See the [upstream documentation](https://github.com/bd-loser/opencode-bionic#install) for current options.
 
 ## Update / reinstall
 
